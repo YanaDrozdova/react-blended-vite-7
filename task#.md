@@ -132,7 +132,8 @@ const urlPosition = `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lon
   валюти (додамо пізніше можливість обирання іншої поточної валюти)
 
 ```bash
-     {baseCurrency && <p> Your base currency: {baseCurrency}</p> }
+
+
 ```
 
 ## 5 Крок

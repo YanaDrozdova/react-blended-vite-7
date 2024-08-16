@@ -39,7 +39,9 @@ export const Header = () => {
             </ul>
           </nav>
         </div>
-        {baseCurrency && <p> Your base currency: {baseCurrency}</p>}
+        {baseCurrency && (
+          <p className={styles.currency}> Your base currency: {baseCurrency}</p>
+        )}
       </header>
       <Suspense fallback={null}>
         <Outlet />
